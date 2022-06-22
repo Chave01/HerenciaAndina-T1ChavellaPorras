@@ -2,10 +2,18 @@ Body {
     background-color: #ececed;
 }
 h1 {
-        margin-top: 10%;
+        margin-left: 32%;
+        margin-top:20%;
         font-family: neue-haas-grotesk-display;
         font-size: 70px;
         text-align: center;
         font-weight: bold;
+       
+       width: 30%;
+       
+        
+
+        
         
     }
+

@@ -4,6 +4,8 @@ function Body() {
   return (
  <h1>Herencia Andina </h1>
 
+
+
   );
 }
 
