@@ -1,0 +1,56 @@
+
+.BodyItemCount{
+
+    width:15%;
+    margin-top: 37%;
+   margin-left: 40%;
+    position: fixed;
+    text-align: center;
+    background: transparent;
+    border-radius: 5px;
+    box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+    7px 7px 20px 0px rgba(0,0,0,.1),
+    4px 4px 5px 0px rgba(0,0,0,.1);
+    font-family: sans-serif;
+
+    
+    
+   
+}
+
+
+
+
+.bodybutton{
+margin-left: 15%;
+    width: 70px;
+    display: flex;
+   justify-content: space-between;
+   margin: 0 auto;
+    
+  
+
+   
+}
+
+.bodybutton button{
+    
+    height: 30px;
+    border: none;
+    background-color: transparent;
+    font-size: 15px;
+   
+    
+}
+
+.num {
+  margin-top: 8px;
+
+}
+
+.Addtocart {
+    font-family: sans-serif;
+    background-color: rgb(62, 62, 62);
+    color: whitesmoke;
+    font-size: 15px;
+}
