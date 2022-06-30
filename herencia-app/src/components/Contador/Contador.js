@@ -7,7 +7,7 @@ import Swal from 'sweetalert2'
 function ItemCount({stock, initial}) {
  
 
-const [num, setNum] = useState(0);
+const [num, setNum] = useState(1);
 
 const sumar = () => {
 if(num <stock) {

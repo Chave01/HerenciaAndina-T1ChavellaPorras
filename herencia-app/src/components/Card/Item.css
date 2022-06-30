@@ -1,0 +1,63 @@
+
+
+.card {
+  width: 200px;
+  height: 300px;
+
+
+  
+ 
+
+ /*
+  width: 80%;
+  display: grid;
+  font-family: sans-serif;
+  grid-template-columns: 291px 291px 291px;
+  grid-template-rows: auto;
+  grid-row-gap: 60px;
+  justify-content:space-evenly;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px; 
+*/
+    text-align: center;
+
+    background-color: #f7f7f7; 
+    border-radius: 5%;
+    transition: all .7s;
+    font-size: 1.0rem;
+    font-family: "monsterrat", sans-serif; 
+   
+  }
+
+    
+
+
+
+
+.card:hover {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px, inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px, inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
+  -o-box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px, inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
+  box-shadow: rgba(0, 0, 0, 0.8) 0px 4px 14px, inset rgba(0, 0, 0, 0.15) 0px -10px 20px; 
+}
+
+.card button{
+  border: none;
+  background-color: rgb(212, 186, 112);
+  display: inline-block;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin-bottom: 25px;
+  padding: 15px 25px;
+  text-decoration: none;
+  text-transform: uppercase;
+  -webkit-transition: all 400ms ease;
+          transition: all 400ms ease;
+}
+
+.card button:hover{
+  background-color: rgb(78, 182, 125);
+ 
+}

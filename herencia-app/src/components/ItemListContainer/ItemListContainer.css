@@ -1,9 +1,10 @@
 .BodyCatalogo {
 
 
- margin-top: 30%;
+  height: 150px;
+ margin-top: 10%;
  margin-left: 42%;
- position: fixed;
+ 
  
 
 
@@ -18,7 +19,7 @@ h2 {
 .btn-1 {
         background-color:rgb(206, 97, 19);
         display: flex;
-        overflow: hidden;
+        
       
         margin-left: 20%;
         padding: 12px 12px;

@@ -19,8 +19,9 @@ function App() {
     <div >
       <a href='index.html'><img src={logo} className="logo" alt=""/></a>
       <Navbar/>
-      <ItemListContainer/>
+      
        <Body/>
+       <ItemListContainer/>
       
     
       
