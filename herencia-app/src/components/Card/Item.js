@@ -12,6 +12,7 @@ function Item(props) {
        
         <button>AGREGAR</button>
         <p>Disponibilidad :{props.stock}</p>
+        <img src={props.img} />
       
         
       

@@ -4,6 +4,7 @@ import Body from './components/Body/Body';
 import Navbar from './components/Navbar/Navbar';
 import logo from './components/Img/logo.png';
 import ItemListContainer from './components/ItemListContainer/ItemListContainer.js';
+import GetInfo from './components/GetInfo/GetInfo';
 
 
  
@@ -22,6 +23,7 @@ function App() {
       
        <Body/>
        <ItemListContainer/>
+       <GetInfo/>
       
     
       
