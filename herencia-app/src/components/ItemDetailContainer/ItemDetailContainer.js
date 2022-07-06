@@ -3,9 +3,6 @@ import './ItemDetailContainer.css';
 
 
 
-
-
-
 function ItemDetailContainer(props) {
 
   
@@ -13,9 +10,10 @@ function ItemDetailContainer(props) {
   return (
    <section className='Bodydetailcontainer'>
    
-      <img src={props.img} />
+      
         <div className='textdetail'>
-        <h4>{props.name}</h4>
+        <img src={props.img} />
+        <h4>{props.nombre}</h4>
         <p>${props.price}</p>
         <p>{props.description}</p>
 

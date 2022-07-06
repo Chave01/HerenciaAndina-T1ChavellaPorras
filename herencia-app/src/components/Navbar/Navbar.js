@@ -1,6 +1,7 @@
 import './Navbar.css';
 
 import CartWidge from '../CartWidge/CartWidge';
+import { NavLink } from 'react-router-dom';
 
 
 
@@ -12,17 +13,18 @@ function Navbar() {
 
 <header className='navbar'>
   
-
-             <a className="linkbar" href="index.html">HOME</a>
-             <a className="linkbar" href="Producto.html">PRODUCTOS</a>
-              <a className="linkbar" href="QuienesSomos.html">QUIENES SOMOS</a>
-           
-              <a className="linkbar" href="Registrate.html">INICIAR SESIÓN</a>
+    <div className='wrapnavbar'>
+             <NavLink exact activeClassName="active" to ="/Home">HOME</NavLink>
+             <NavLink exact activeClassName="active" to ="/Products">PRODUCTOS</NavLink>
+             <NavLink exact activeClassName="active" to ="/Category">CATEGORIA</NavLink>
+        
+            
+             <a className="linkbar" href="Registrate.html">INICIAR SESIÓN</a>
               <CartWidge/>
            
              
             
-            
+            </div>
 
 </header>
   );

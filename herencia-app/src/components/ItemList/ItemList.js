@@ -20,7 +20,7 @@ function ItemList() {
      
      
       <div className='allCard'>
-          {info && info.map(i => <Item producto={i.nombre} precio={i.price} stock = {i.stock} img = {i.img}/>)}
+          {info && info.map(i => <Item producto={i.nombre} precio={i.price} stock = {i.stock} />)}
         </div>
      
        

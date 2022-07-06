@@ -1,29 +1,30 @@
-.navbar {
+.wrapnavbar {
     margin-top: -90px;
     margin-left: 39%;
     display: flex;
     justify-content: flex-end;
-    width: 60%;
-   
     font-family: sans-serif;
     font-weight: bold;
     font-size: 17px;
     
+
    
     }
   
-.linkbar {
+  
+header a.active{
 
     display: inline-block;
     color: #6c757d;
-    padding: 5px 17px;
+    padding: 5px 19px;
     text-decoration: none;
     position: relative; }
-
-    .linkbar:hover {
+    
+ 
+  a.active :hover {
         color: #f4511e; }
-      
-      .linkbar:before {
+  
+     a.active:before {
         content: "";
         position: absolute;
         width: 100%;
@@ -35,7 +36,7 @@
         transform: scaleX(0);
         transition: all 0.5s ease-in-out; }
       
-      .linkbar:hover:before {
+      a.active :hover:before {
         visibility: visible;
         transform: scaleX(0.6); }
 
@@ -47,4 +48,7 @@
         
 
     }
- 
+ header{
+width: 100%;
+
+ }

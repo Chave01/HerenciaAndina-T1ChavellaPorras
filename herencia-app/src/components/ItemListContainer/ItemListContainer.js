@@ -7,7 +7,7 @@ import ItemList from '../ItemList/ItemList';
 
 function ItemListContainer() {
 
-  
+   
 
   return (
    
@@ -16,7 +16,7 @@ function ItemListContainer() {
         <h2>Nuestros productos </h2>
 
 
-        <button className='btn-1'> Elegí tu café</button>
+     
 
         <ItemCount stock={15} initial={1} />
       </div>

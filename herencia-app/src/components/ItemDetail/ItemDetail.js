@@ -8,16 +8,14 @@ import './ItemDetail.css';
 function ItemDetail(props) {
 
 
-
-
   return (
    
  
-      <div className='detailcoffee' >
+      <div className='coffeelist' >
 
         {props.cafes.map((cafe) => (
             <ItemDetailContainer
-                name={cafe.name}
+                nombre={cafe.nombre}
                 price={cafe.price}
                 description= {cafe.description}
                 img = {cafe.img}
